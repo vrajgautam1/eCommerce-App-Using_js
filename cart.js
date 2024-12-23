@@ -63,13 +63,13 @@ function viewCart() {
     
     cartContainer.innerHTML = "";
     cart.forEach((product) => {
-        cartContainer.innerHTML += `<div class="row mt-3 cartItemCard">
-                <div class="col-2 d-flex justify-content-center align-items-center">
+        cartContainer.innerHTML += `<div class="row mt-3 cartItemCard ">
+                <div class="col-3">
                     <img src="${product.thumbnail}"
-                        alt="" width="auto" height="150">
+                        alt="" height="150" class="w-auto me-5">
                 </div>
 
-                <div class="col-9 ms-3">
+                <div class="col-7 ms-3">
                     <h3>${product.brand}</h3>
                     <p class="fs-5 spaced-paras1">Gucci Bloom Eau de</p>
 
