@@ -1,0 +1,183 @@
+a.no-underline {
+    color: inherit; /* Inherit the color of the parent element (button) */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves properly inside a button */
+}
+
+a.no-underline:hover {
+    color: inherit; /* Prevent color change on hover */
+    text-decoration: none; /* Prevent underline on hover */
+}
+
+.price {
+  font-size: 14px!important;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+.actualPrice{
+  margin-top: -10px;
+}
+
+/* viewProducts */
+
+.swiper {
+  /* width: auto; */
+  height: 300px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000;
+  /* Button color */
+  font-size: 2rem;
+  /* Adjust icon size */
+  width: 50px;
+  /* Adjust button area width */
+  height: 50px;
+  /* Adjust button area height */
+}
+
+.bi-star-fill{
+  color: gold;
+}
+
+.spaced-paras{
+  margin-top: -10px;
+}
+
+.spaced-paras1{
+  margin-top: -5px;
+}
+
+.small-fonts{
+  font-size: 13px;
+}
+
+.small-fonts2{
+  font-size: 14px;
+}
+
+.small-fonts1{
+  font-size: 14px;
+  color: rgb(0, 72, 180)!important;
+}
+
+.bi-person-circle{
+  font-size: 24px;
+}
+
+.orange1{
+      background-color: #d85f03;
+      border: none;
+}
+
+/* --------------------------------- */
+
+/* 3 - cart html  */
+
+.qtybtn{
+  padding: 0px;
+}
+
+/* Dark background for the body */
+body {
+  background-color: #f3f4f6; /* Darker shade of gray */
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Card container for each cart item */
+.cartItemCard {
+  /* background-color: #fff; Light background for cards */
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); Subtle shadow for depth */
+  /* margin: 20px auto; */
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+/* Adjust the container for spacing */
+.cartContainer {
+  /* margin: 50px auto; */
+  background-color: #fbfbfb; /* Light background for cards */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Product image styling */
+.productImage {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Pricing and button area */
+.cartDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Style the price section */
+.price {
+  color: #ff9900; /* Highlight price */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Quantity and actions */
+.cartActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Quantity input */
+.quantityInput {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0073e6; /* Amazon-like blue */
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+/* Delete button */
+.deleteButton {
+  background-color: #ff4c4c; /* Red for delete */
+}
+
+.deleteButton:hover {
+  background-color: #d11a2a;
+}
+
+.qtybtn{
+  color:#002850
+}
