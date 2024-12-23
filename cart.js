@@ -58,8 +58,9 @@ window.deleteItem = function (id) {
     updateTotalPrice()
 };
 
+badge.innerHTML = `<span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">${cart.length}</span>`;
 function viewCart() {
-    badge.innerHTML = `<span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">${cart.length}</span>`;
+    
     cartContainer.innerHTML = "";
     cart.forEach((product) => {
         cartContainer.innerHTML += `<div class="row mt-3 cartItemCard">
