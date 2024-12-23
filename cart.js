@@ -58,7 +58,7 @@ window.deleteItem = function (id) {
     updateTotalPrice()
 };
 
-badge.innerHTML = `<span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">${cart.length}</span>`;
+badge.innerHTML += `<span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">${cart.length}</span>`;
 function viewCart() {
     
     cartContainer.innerHTML = "";
